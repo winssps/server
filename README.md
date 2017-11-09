@@ -51,9 +51,9 @@ node .
 
 ## 文档
 
-The library is documented here:
+serverjs 库文档:
 
-[Full Documentation](https://serverjs.io/documentation/)
+[完整的文档](https://serverjs.io/documentation/)
 
 [订阅此处](http://eepurl.com/cGRggH)接收发布时的教程。一旦你了解了基础知识，这些教程对于学习是有好处的，而这些文档是很好的参考/快速使用。
 
@@ -65,7 +65,7 @@ The library is documented here:
 
 ### 小到中等的项目
 
-一切正常，您可以获得对大多数功能的支持，您可以轻松使用Express的中间件生态系统。不去爱的种种？
+一切正常，您可以获得对大多数功能的支持，您可以轻松使用Express的中间件生态系统。还有什么理由不喜欢？
 
 一些包括的功能：正文和文件解析器，cookies，会话，websockets，Redis，gzip，favicon，csrf，SSL等。他们只是工作，所以你会保存头痛或两个，可以专注于您的实际项目。获取一个简单的表单：
 
