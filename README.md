@@ -1,12 +1,12 @@
 # server.js for Node.js
-功能强大的Node.js服务器，可以让你专注于你的真棒项目
+功能强大的Node.js server框架，可以让你专注于你的令人惊叹的项目
 
 ```
 // Include it and extract some methods for convenience
 const server = require('server');
 const { get, post } = server.router;
 
-// Launch server with options and a couple of routes
+// 启动服务和设置get 、post请求路由
 server({ port: 8080 }, [
   get('/', ctx => 'Hello world'),
   post('/', ctx => console.log(ctx.data))
@@ -29,7 +29,7 @@ npm install server
 ``server``需要Node.js 7.6.0或更高版本。 Node.js 8.9.x LTS推荐用于Node.js的长期支持。
 >
 
-然后你可以用下面的代码创建一个名为``index.js``的文件：
+你可以用下面的代码创建一个名为``index.js``的文件：
 
 ```
 // Include the server in your file
@@ -47,7 +47,7 @@ server([
 node .
 ```
 
-最后，在``[localhost：3000](http://localhost:3000/)``上打开你的浏览器，你应该看到'Hello world！'在您的浏览器上。
+最后，在``[localhost：3000](http://localhost:3000/)``上打开你的浏览器，你会看到'Hello world！'在您的浏览器上。
 
 ## 文档
 
@@ -57,7 +57,7 @@ serverjs 库文档:
 
 [订阅此处](http://eepurl.com/cGRggH)接收发布时的教程。一旦你了解了基础知识，这些教程对于学习是有好处的，而这些文档是很好的参考/快速使用。
 
-您也可以下载资源库并通过浏览它们和节点来尝试实例。在他们每个``/examples``里面。
+您也可以下载资源库并通过浏览它们和节点来尝试实例。每个例子在``/examples``文件夹里。
 
 ## 用例
 
