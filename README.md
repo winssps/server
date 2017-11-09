@@ -52,8 +52,8 @@ node .
 ## 文档
 
 serverjs 库文档:
-
-[完整的文档](https://serverjs.io/documentation/)
+[中文完整文档](https://github.com/winssps/server/blob/master/%E4%BB%8B%E7%BB%8D.md)
+[英语完整的文档](https://serverjs.io/documentation/)
 
 [订阅此处](http://eepurl.com/cGRggH)接收发布时的教程。一旦你了解了基础知识，这些教程对于学习是有好处的，而这些文档是很好的参考/快速使用。
 
