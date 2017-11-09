@@ -67,7 +67,7 @@ serverjs 库文档:
 
 一切正常，您可以获得对大多数功能的支持，您可以轻松使用Express的中间件生态系统。还有什么理由不喜欢？
 
-一些包括的功能：正文和文件解析器，cookies，会话，websockets，Redis，gzip，favicon，csrf，SSL等。他们只是工作，所以你会保存头痛或两个，可以专注于您的实际项目。获取一个简单的表单：
+一些导入的功能：body和file parsers，cookies，session，websockets，Redis，gzip，favicon，csrf，SSL等。他们这样工作，所以你会节省一个或者两个烦恼，并且专注于您的实际项目。获取一个简单的形式：
 
 ```
 const server = require('server');
