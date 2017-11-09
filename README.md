@@ -26,7 +26,7 @@ npm install server
 ```
 
 >
-服务器需要Node.js 7.6.0或更高版本。 Node.js 8.9.x LTS推荐用于Node.js的长期支持。
+``server``需要Node.js 7.6.0或更高版本。 Node.js 8.9.x LTS推荐用于Node.js的长期支持。
 >
 
 然后你可以用下面的代码创建一个名为``index.js``的文件：
