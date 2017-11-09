@@ -101,7 +101,7 @@ module.exports = [
 ];
 ```
 
-##  即时的
+##  Real time
 
 Websockets从来没有这么容易使用！使用前端的socket.io，你可以简单地在后端执行这些事件来处理这些事件：
 
