@@ -1,12 +1,12 @@
 # server.js for Node.js
-功能强大的Node.js服务器，可以让你专注于你的真棒项目
+功能强大的Node.js server框架，可以让你专注于你的令人惊叹的项目
 
 ```
 // Include it and extract some methods for convenience
 const server = require('server');
 const { get, post } = server.router;
 
-// Launch server with options and a couple of routes
+// 启动服务和设置get 、post请求路由
 server({ port: 8080 }, [
   get('/', ctx => 'Hello world'),
   post('/', ctx => console.log(ctx.data))
@@ -26,10 +26,10 @@ npm install server
 ```
 
 >
-服务器需要Node.js 7.6.0或更高版本。 Node.js 8.9.x LTS推荐用于Node.js的长期支持。
+``server``需要Node.js 7.6.0或更高版本。 Node.js 8.9.x LTS推荐用于Node.js的长期支持。
 >
 
-然后你可以用下面的代码创建一个名为``index.js``的文件：
+你可以用下面的代码创建一个名为``index.js``的文件：
 
 ```
 // Include the server in your file
@@ -47,17 +47,17 @@ server([
 node .
 ```
 
-最后，在``[localhost：3000](http://localhost:3000/)``上打开你的浏览器，你应该看到'Hello world！'在您的浏览器上。
+最后，在``[localhost：3000](http://localhost:3000/)``上打开你的浏览器，你会看到'Hello world！'在您的浏览器上。
 
 ## 文档
 
-The library is documented here:
-
-[Full Documentation](https://serverjs.io/documentation/)
+serverjs 库文档:
+[中文完整文档](https://github.com/winssps/server/blob/master/%E4%BB%8B%E7%BB%8D.md)
+[英语完整的文档](https://serverjs.io/documentation/)
 
 [订阅此处](http://eepurl.com/cGRggH)接收发布时的教程。一旦你了解了基础知识，这些教程对于学习是有好处的，而这些文档是很好的参考/快速使用。
 
-您也可以下载资源库并通过浏览它们和节点来尝试实例。在他们每个``/examples``里面。
+您也可以下载资源库并通过浏览它们和节点来尝试实例。每个例子在``/examples``文件夹里。
 
 ## 用例
 
@@ -65,9 +65,9 @@ The library is documented here:
 
 ### 小到中等的项目
 
-一切正常，您可以获得对大多数功能的支持，您可以轻松使用Express的中间件生态系统。不去爱的种种？
+一切正常，您可以获得对大多数功能的支持，您可以轻松使用Express的中间件生态系统。还有什么理由不喜欢？
 
-一些包括的功能：正文和文件解析器，cookies，会话，websockets，Redis，gzip，favicon，csrf，SSL等。他们只是工作，所以你会保存头痛或两个，可以专注于您的实际项目。获取一个简单的表单：
+一些导入的功能：body和file parsers，cookies，session，websockets，Redis，gzip，favicon，csrf，SSL等。他们这样工作，所以你会节省一个或者两个烦恼，并且专注于您的实际项目。获取一个简单的形式：
 
 ```
 const server = require('server');
