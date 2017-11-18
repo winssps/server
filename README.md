@@ -1,12 +1,10 @@
 
 # 文档目录
-- [Introduction](https://github.com/winssps/server/blob/master/%E4%BB%8B%E7%BB%8D.md)
-- [Options](https://github.com/winssps/server/blob/master/%E9%80%89%E9%A1%B9.md)
+- [Introduction](https://github.com/winssps/server/blob/master/Introduction.md)
+- [Options](https://github.com/winssps/server/blob/master/Options.md)
 - [Context](https://github.com/winssps/server/blob/master/Context.md)
 - [Router](https://github.com/winssps/server/blob/master/Router.md)
 - [Reply](https://github.com/winssps/server/blob/master/Reply.md)
-- [错误]()
-- [测试]()
 
 
 
@@ -64,7 +62,7 @@ node .
 ## 文档
 
 serverjs 库文档:
-[中文完整文档](https://github.com/winssps/server/blob/master/%E4%BB%8B%E7%BB%8D.md)
+[中文完整文档](https://github.com/winssps/server/blob/master/Introduction.md)
 [英语完整的文档](https://serverjs.io/documentation/)
 
 [订阅此处](http://eepurl.com/cGRggH)接收发布时的教程。一旦你了解了基础知识，这些教程对于学习是有好处的，而这些文档是很好的参考/快速使用。
